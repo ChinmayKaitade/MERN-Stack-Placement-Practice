@@ -1,6 +1,6 @@
 /**
  * Master the Basics | DSA with JavaScript | Part 01
- * Complete runnable reference: Variables, Hoisting, Coercion, Puzzles, and Math
+ * Complete runnable reference: Variables, Hoisting, Pre/Post Analogy, Puzzles, and Math
  */
 
 // ==========================================
@@ -71,9 +71,34 @@ x4 = x4 ^ y4;
 console.log("Method 4 (Bitwise XOR):", { x: x4, y: y4 });
 
 // ==========================================
-// 3. OPERATOR TRICKY QUESTIONS
+// 3. DHABA VS DOMINO'S: PRE & POST DEMO
 // ==========================================
-console.log("\n--- 3. Operator Puzzles ---");
+console.log("\n--- 3. Pre & Post Demos ---");
+
+// Post-increment (Dhaba): Pehle khao (use), baad mein bill (change)
+let dhabaInc = 10;
+console.log("Dhaba post++ use:", dhabaInc++); // 10
+console.log("Dhaba post++ after:", dhabaInc); // 11
+
+// Pre-increment (Domino's): Pehle bill (change), phir pizza (use)
+let dominosInc = 10;
+console.log("Domino's ++pre change & use:", ++dominosInc); // 11
+console.log("Domino's ++pre after:", dominosInc); // 11
+
+// Post-decrement (Dhaba): Pehle use, baad mein minus
+let dhabaDec = 10;
+console.log("Dhaba post-- use:", dhabaDec--); // 10
+console.log("Dhaba post-- after:", dhabaDec); // 9
+
+// Pre-decrement (Domino's): Pehle minus, phir use
+let dominosDec = 10;
+console.log("Domino's --pre change & use:", --dominosDec); // 9
+console.log("Domino's --pre after:", dominosDec); // 9
+
+// ==========================================
+// 4. OPERATOR TRICKY QUESTIONS
+// ==========================================
+console.log("\n--- 4. Operator Puzzles ---");
 
 // Puzzle 1
 let p1_i = 11;
@@ -92,9 +117,9 @@ p3_b++; // true converts to 1, then increments to 2
 console.log("Puzzle 3 result:", p3_b); // 2
 
 // ==========================================
-// 4. MATH FUNCTIONS & REAL-WORLD PROBLEMS
+// 5. MATH FUNCTIONS & REAL-WORLD PROBLEMS
 // ==========================================
-console.log("\n--- 4. Math Problems ---");
+console.log("\n--- 5. Math Problems ---");
 
 // Que.5: Calculate area and perimeter of rectangle
 function rectangleMetrics(length, breadth) {
