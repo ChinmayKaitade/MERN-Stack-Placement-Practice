@@ -14,7 +14,7 @@ Comprehensive repository for the complete **DSA with JavaScript** playlist. Mast
 
 ### 🧩 Core JavaScript & Problem Solving
 
-#### 📹 Video 01: Basics logic on JS -> varaible, operator, operation on operator
+#### 📹 Video 01: Basics logic on JS -> variable, operator, operation on operator
 
 - 🔹 **Que.1:** Sum of two integer
 - 🔹 Relation between integer and string
@@ -25,8 +25,9 @@ Comprehensive repository for the complete **DSA with JavaScript** playlist. Mast
 - 🔹 Math functions
 - **Math problems:**
 - 🔸 **Que.5:** Calculate area and perimeter of rectangle
-- 🔸 **Que.6:** Area of triangle by heron's formula
-- 🔸 **Que.7:** Circumference of circle
+- 🔸 **Que.6:** Generate OTP
+- 🔸 **Que.7:** Area of triangle by heron's formula
+- 🔸 **Que.8:** Circumference of circle
 
 #### 📹 Video 2: Conditional Statement
 
