@@ -26,6 +26,7 @@ Follow along, code daily, and build the rock-solid problem-solving mindset requi
 - 🔹 Sum of two integers & dynamic messages
 - 🔹 3 distinct ways to swap two variables
 - 🔹 Rectangle: Area & perimeter
+- 🔹 Generate OTP
 - 🔹 Triangle area using Heron's formula
 - 🔹 Circumference of a circle
 

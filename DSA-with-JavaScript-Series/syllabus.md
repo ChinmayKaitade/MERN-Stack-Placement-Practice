@@ -33,7 +33,7 @@ Comprehensive repository for the complete **DSA with JavaScript** playlist. Mast
 
 - 🔹 **Que.8:** Valid user
 - 🔹 **Que.9:** Shop discount
-- 🔹 **Que.10:** Bill bill
+- 🔹 **Que.10:** Bijli bill
 - 🔹 **Que.11:** INR denomination
 - 🔹 Ternary operator, switch and one case handling multiple values
 
